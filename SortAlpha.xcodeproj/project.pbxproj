@@ -18,6 +18,7 @@
 		6654E9A417E588660088854B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6654E9A317E588660088854B /* Default-568h@2x.png */; };
 		6654E9A717E588660088854B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6654E9A617E588660088854B /* ViewController.m */; };
 		6654E9AA17E588660088854B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6654E9A817E588660088854B /* ViewController.xib */; };
+		6654E9B217E589540088854B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6654E9B117E589540088854B /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		6654E9A517E588660088854B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6654E9A617E588660088854B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6654E9A917E588660088854B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6654E9B017E589540088854B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6654E9B117E589540088854B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 		6654E98117E588660088854B = {
 			isa = PBXGroup;
 			children = (
+				6654E9B017E589540088854B /* Person.h */,
+				6654E9B117E589540088854B /* Person.m */,
 				6654E99317E588660088854B /* SortAlpha */,
 				6654E98C17E588660088854B /* Frameworks */,
 				6654E98B17E588660088854B /* Products */,
@@ -176,6 +181,7 @@
 				6654E99A17E588660088854B /* main.m in Sources */,
 				6654E99E17E588660088854B /* AppDelegate.m in Sources */,
 				6654E9A717E588660088854B /* ViewController.m in Sources */,
+				6654E9B217E589540088854B /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
